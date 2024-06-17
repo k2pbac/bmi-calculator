@@ -32,6 +32,7 @@
   line-height: 110%;
   color: #253347;
   letter-spacing: -0.05em;
+  padding-top: 95px;
 }
 
 .header p {
@@ -46,5 +47,10 @@
   flex-direction: column;
   gap: 30px;
   margin-left: 140px;
-  padding-top: 263px;
+  padding-top: 74px;
+}
+
+.header .text-container img {
+  height: 64px;
+  width: 64px;
 }

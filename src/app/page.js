@@ -10,6 +10,7 @@ export default function Home() {
     <main className="min-h-screen">
       <div className={inter.className[1] + " header"}>
         <div className="text-container">
+          <img src="./logo.svg"></img>
           <h1>
             Body Mass <br></br> Index Calculator
           </h1>
