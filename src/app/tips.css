@@ -1,0 +1,46 @@
+.tips-container {
+  height: 402px;
+  width: 1392px;
+  margin: auto;
+  display: flex;
+}
+
+.tips {
+  width: 1159px;
+  height: 234px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.tips .tip {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  width: 365px;
+  height: 234px;
+}
+
+.tips .tip img {
+  height: 64px;
+  width: 64px;
+}
+
+.tips .tip p {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  color: #253347;
+  gap: 24px;
+}
+
+.tips .tip p span {
+  height: 72px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #5e6e85;
+}
