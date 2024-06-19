@@ -5,7 +5,7 @@ export default function Card({ link, alt, title, content }) {
     <div className="card">
       <div>
         <img src={link} alt={alt} />
-        <p>{title}</p>
+        <div>{title}</div>
       </div>
       <p>{content}</p>
     </div>

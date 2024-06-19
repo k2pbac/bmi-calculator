@@ -3,10 +3,19 @@
   height: 704px;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.limitations-container .section-1,
+.limitations-container .section-2,
+.limitations-container .section-3 {
+  display: flex;
 }
 
 .limitations-container .section-1 {
-  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+  margin-bottom: 36px;
 }
 
 .limitations-container .section-1 h1 {
@@ -16,12 +25,6 @@
   letter-spacing: -0.05em;
   margin-bottom: 35px;
   color: #253347;
-}
-
-.limitations-container .section-1 p {
-  font-size: 16px;
-  line-height: 150%;
-  color: #5e6e85;
 }
 
 .card {
@@ -34,4 +37,42 @@
 
 .section-1 div:first-child {
   width: 564px;
+}
+
+.limitations-container .section-2 {
+  margin-bottom: 36px;
+  justify-content: flex-end;
+  gap: 36px;
+  height: 184px;
+  position: relative;
+}
+.limitations-container .section-2 .curved-line {
+  position: absolute;
+  width: 94px;
+  height: 122px;
+  left: 200px;
+}
+
+.limitations-container .card div:first-child {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 16px;
+  gap: 16px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #253347;
+  letter-spacing: -0.05em;
+}
+
+.limitations-container .card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #5e6e85;
+}
+
+.limitations-container .section-3 {
+  justify-content: center;
+  gap: 36px;
+  height: 232px;
 }
