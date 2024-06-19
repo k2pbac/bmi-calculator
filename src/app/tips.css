@@ -1,8 +1,15 @@
 .tips-container {
   height: 402px;
   width: 1392px;
-  margin: auto;
   display: flex;
+  margin-top: 120px;
+  background: linear-gradient(
+    104.237deg,
+    #d7e8fe7d 0%,
+    rgb(214 252 254 / 10%) 100%
+  );
+  margin-left: 24px;
+  border-radius: 35px;
 }
 
 .tips {
@@ -20,6 +27,8 @@
   gap: 45px;
   width: 365px;
   height: 234px;
+  margin-right: 32px;
+  margin-left: 32px;
 }
 
 .tips .tip img {

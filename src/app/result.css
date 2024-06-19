@@ -4,24 +4,22 @@
   position: relative;
   margin: auto;
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 131px;
 }
 
 .result-container .curved-line {
   position: absolute;
-  right: 0;
+  right: 20px;
   top: 0;
 }
-
 .image-container {
-  margin-top: 70px;
+  margin-top: 40px;
 }
+
 .image-container img {
-  width: 468px;
+  width: 564px;
   height: 533px;
-  object-fit: contain;
 }
 
 .result-container p {
@@ -29,13 +27,14 @@
 }
 
 .result-container .text-container {
-  justify-content: center;
   margin-top: 200px;
   height: 533px;
   width: 465px;
   display: flex;
   flex-direction: column;
   gap: 35px;
+  margin-top: 20px;
+  justify-content: flex-end;
 }
 
 .result-container .text-container h1 {

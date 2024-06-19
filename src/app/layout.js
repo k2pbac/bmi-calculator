@@ -3,6 +3,7 @@ import "./globals.css";
 import "./index.css";
 import "./result.css";
 import "./tips.css";
+import "./limitations.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
