@@ -45,7 +45,6 @@
 
 .inputs-container {
   width: 564px;
-  height: 484px;
   background-color: white;
   border-radius: 16px;
   margin-top: 166px;
@@ -112,6 +111,9 @@
   border: 1px solid #5e6e85;
   cursor: pointer;
 }
+.inputs .radio:hover {
+  border-color: #345ff6;
+}
 
 .measurements label {
   color: #5e6e85;
@@ -124,7 +126,7 @@
   font-weight: 600;
   color: #253347 !important;
   letter-spacing: -0.05em;
-  padding: 20px 24px;
+  padding: 10px 24px;
   border: 1px solid #5e6e85;
   border-radius: 12px;
   font-size: 24px;
@@ -137,11 +139,11 @@
   font-size: 24px;
   letter-spacing: -0.05em;
   right: 44px;
-  bottom: 20px;
+  bottom: 10px;
 }
 
+.banner-empty,
 .banner {
-  height: 130px;
   background-color: #345ff6;
   color: white;
   padding: 32px;
@@ -153,14 +155,62 @@
   flex-direction: column;
   gap: 16px;
 }
-
-.banner h3 {
-  font-size: 24px;
-  letter-spacing: -0.05em;
-  font-weight: 600;
+.banner {
+  flex-direction: row;
+  gap: 24px;
+}
+.banner .banner-header {
+  display: flex;
 }
 
 .banner p {
   font-size: 14px;
   line-height: 150%;
+  flex-direction: column;
+  width: 50%;
+}
+.banner p span {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+}
+
+.banner-empty h3 {
+  font-size: 24px;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+
+.banner-empty p {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+fieldset {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+}
+
+.imperial {
+  flex-direction: column;
+  gap: 24px;
+}
+
+.imperial .input-container {
+  position: relative;
+  width: 50%;
+}
+
+.imperial .imperial__inputs {
+  display: flex;
+}
+
+.imperial legend {
+  margin-bottom: 8px;
+}
+
+input {
+  cursor: pointer;
 }
