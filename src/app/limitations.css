@@ -38,6 +38,7 @@
 
 .section-1 div:first-child {
   width: 564px;
+  max-width: 100%;
 }
 
 .limitations-container .section-2 {
