@@ -83,12 +83,14 @@
     margin-right: 20px;
     flex-direction: column;
     align-items: flex-start;
+    gap: 32px;
   }
   .tips-container .tips {
     padding: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 40px;
+    gap: 40px;
   }
   .tips-container,
   .tips {
