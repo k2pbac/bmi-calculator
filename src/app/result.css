@@ -49,3 +49,27 @@
   line-height: 150%;
   color: #5e6e85;
 }
+
+@media only screen and (max-width: 820px) {
+  .result-container {
+    width: 841px;
+    height: 100%;
+    align-items: flex-end;
+    gap: 75px;
+    margin-left: -70px;
+  }
+  .image-container img {
+    height: 411.09px;
+    width: 435px;
+  }
+  .result-container .text-container {
+    width: 331px;
+    margin-top: 0;
+  }
+  .result-container .text-container p {
+    width: 331px;
+  }
+  .curved-line {
+    display: none;
+  }
+}
