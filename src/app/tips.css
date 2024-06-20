@@ -67,4 +67,31 @@
     flex-direction: row;
     align-items: center;
   }
+  .tips-container .tips {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .tips-container .tips .tip {
+    height: 100%;
+    justify-content: revert;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .tips-container .tips {
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+  }
+  .tips-container,
+  .tips {
+    height: 100%;
+  }
 }

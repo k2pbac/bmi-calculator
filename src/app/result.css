@@ -20,6 +20,7 @@
 .image-container img {
   width: 564px;
   height: 533px;
+  object-fit: cover;
 }
 
 .result-container p {
@@ -71,5 +72,21 @@
   }
   .curved-line {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .result-container {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .result-container .text-container {
+    justify-content: unset;
+    height: 100%;
+  }
+  .result-container .text-container h1 {
+    font-size: 32px;
   }
 }
