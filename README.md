@@ -34,7 +34,6 @@ Users should be able to:
 
 ### Links
 
-[Github URL](https://github.com/k2pbac/bmi-calculator)
 [Live site](https://bmi-calculator-rho-nine.vercel.app/)
 
 ## My process
